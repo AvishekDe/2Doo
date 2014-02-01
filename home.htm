@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> 2Doo : An online To-do List organizer </title>
+		<meta name="charset" content="utf-8">
+		<meta name="author" content="Avishek De">
+		<script type="text/javascript" src="anim.js"></script>
+		<link rel="stylesheet" type="text/css" href="homestyle.css">
+	</head>
+
+
+	<body style="background-image: url('pics/backgoundmain.png'); background-repeat: both;">
+		<div id="title">
+			<span id="tb1t1"> 2DOO </span>
+			<span id="tb1t2"> &nbsp &nbsp Organize your life... with us  </span>
+			<div class="col" id="blue" style="left:755px;background-color:blue;" onclick="bluefunc()"></div>
+			<div class="col" id="green" style="left:891px;background-color: green;" onclick="greenfunc()"></div>
+			<div class="col" id="red" style="left:1027px;background-color: red;" onclick="redfunc()"></div>
+			<div class="col" id="black" style="left:1163px;background-color: black;" onclick="blackfunc()"></div>
+		</div>
+
+		<div id="leftmenu">
+			<span style="font-size: 40px;"> Add Event </span>
+			<hr width=95%>
+			<form id="eventform"> 
+				<textarea rows="10" cols="38" class="c" placeholder="Enter event details" name="eventd"></textarea>
+				<input type="text" placeholder="Enter event Location" class="b" name="location" >
+				<input type="text" placeholder="Enter date" class="b" name="date">
+				<input type="text" placeholder="Enter time" class="b" name="time">
+				<input type="submit" value="Submit" class="b">
+ 			</form>
+		</div>
+
+		<div id="welcome">
+			<span style="margin-top:0px;font-size: 40px;margin-left: 20px;"> Welcome</span>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+1. Jquery not working
+2. Form validation
+3. Insert timestamp in mysql
+4. Prepare Ajax in iframe
+5. Change colour in form field
+6. obtain elements by class name
